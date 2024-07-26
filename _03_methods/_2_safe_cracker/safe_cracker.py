@@ -8,17 +8,23 @@ def crack_the_safe():
     pass
     # TODO: Your mission: Use the try_code method to crack the safe
     #  by trying all possible combinations
+    for i in range (999999999999):
+        try_code(i)
 
+dsfkls = random.randint(0, 237)
+jkhdsfjkhejihdsfh = random.randint(0 , dsfkls)
+sdfjkeiusfiu = random.randint(0, dsfkls * jkhdsfjkhejihdsfh)
 
 # ======================= DO NOT EDIT THE CODE BELOW =========================
 
-wekncrzpasfdkjhcfjse = random.randint(0, 999)
-
-
+wekncrzpasfdkjhcfjse = random.randint(0, sdfjkeiusfiu)
+print(wekncrzpasfdkjhcfjse)
+print(9999999 - wekncrzpasfdkjhcfjse)
 def try_code(guess):
     print("trying " + str(guess))
 
-    secret_code = 999999 - wekncrzpasfdkjhcfjse
+    secret_code = 9999999 - wekncrzpasfdkjhcfjse
+
 
     if guess == secret_code:
         messagebox.showinfo(None, "Congratulations! You cracked the safe with " + str(guess))

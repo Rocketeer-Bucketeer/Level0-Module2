@@ -38,7 +38,6 @@ def animals():
             playing = 1
 
 
-wewillneverusethis = simpledialog.askstring("animal dude", "bye see you next time! Type 19803748342 in the box right now!")
 
 
 
